@@ -12,12 +12,14 @@ function App() {
     <Router>
       {/* the following lines are all components that we should create , navbar is a component BlogList is a component and so on 
     react route helps us to path in url in different component that we would create*/}
-      <Navbar />
-      <br />
-      <Route path="/" exact component={BlogsList} />
-      <Route path="/edit/:id" exact component={EditBlog} />
-      <Route path="/create" exact component={CreateBlog} />
-      <Route path="/user" exact component={CreateUser} />
+      <div className="container">
+        <Navbar />
+        <br />
+        <Route path="/" exact component={BlogsList} />
+        <Route path="/edit/:id" exact component={EditBlog} />
+        <Route path="/create" exact component={CreateBlog} />
+        <Route path="/user" exact component={CreateUser} />
+      </div>
     </Router>
   );
 }

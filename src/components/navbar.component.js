@@ -15,7 +15,7 @@ in this case we use bootstrap styling and if you wanna havbe more reference just
 export default class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-dark bg-dark navbar-expend-lg">
+      <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
         <Link to="/" ClassNAme="navbar-brand">
           Sharlyfe
         </Link>
